@@ -1,0 +1,16 @@
+bserve the Provided EC2 Website and Create a Second Server
+
+Observe the website configured on the existing EC2 server. Using the bootstrap script provided, boot another EC2 server.
+
+
+Create an Application Load Balancer
+
+Create a load balancer called LegacyALB with a target group called TargetGroup, add the two EC2 servers as targets, and observe how the load balancing 
+works in your web browser.
+
+
+Enable Sticky Sessions
+
+Configure the load balancer to use stickiness, and observe how the load balancer now only directs the user to a single EC2 server (as expected).
+Run Progress Check
+
